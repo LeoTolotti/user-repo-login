@@ -1,0 +1,24 @@
+#login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 2rem;
+}
+#login .fomr {
+  background-color: antiquewhite;
+  border-radius: 15px;
+  padding: 0.5rem;
+}
+#login .fomr .filed {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+#login .fomr .actions {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

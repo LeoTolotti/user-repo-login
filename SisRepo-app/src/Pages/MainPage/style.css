@@ -1,0 +1,102 @@
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 2rem;
+}
+#main .nav {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem;
+  border: 1px solid rgb(182, 182, 182);
+  padding: 0.5rem;
+  background-color: #f1f1f1;
+}
+#main .logo {
+  font-size: 1rem;
+  margin: 0;
+  flex: 1;
+}
+#main .search {
+  display: flex;
+  width: 100%;
+  max-width: 480px;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto 2rem auto;
+  padding: 0.5rem;
+  background-color: #f1f1f1;
+}
+#main .query {
+}
+#main #query {
+  margin: auto 1rem;
+  width: 100%;
+}
+#main .search button {
+  color: #f1f1f1;
+  background-color: rgb(65, 65, 65);
+}
+#main .repositories {
+  max-width: 360px;
+  margin: 1rem auto;
+}
+#main .repositories .title {
+  font-size: 1.3rem;
+  text-align: center;
+}
+#main .repositories .list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #d5d5d5;
+}
+#main .repositories .list .item {
+  display: flex;
+  min-height: 3rem;
+  height: 100%;
+  padding: 0.5rem;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #d5d5d5;
+  justify-content: center;
+  align-items: center;
+}
+#main .repositories .list .item .info {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+#main .repositories .list .item .info .owner {
+  color: #363636;
+  font-size: 0.8rem;
+}
+#main .repositories .list .item .info .name {
+  color: #000000;
+  font-size: 1.5rem;
+}
+#main .repositories .list .item button {
+  color: #f1f1f1;
+  background-color: rgb(65, 65, 65);
+}
+#main .add {
+  white-space: nowrap;
+  display: flex;
+  width: 100%;
+  max-width: 480px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 0.5rem;
+  background-color: #f1f1f1;
+}
+#main .url {
+}
+#main #url {
+  margin: auto 1rem;
+  width: 100%;
+}
+#main .add button {
+  color: #f1f1f1;
+  background-color: rgb(65, 65, 65);
+}
